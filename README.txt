@@ -7,7 +7,7 @@ Project Files                                # Deep Learning Final Project Folde
 ├── data/                                    # Project datasets and metadata
 │   ├── part_1/                              # Data used for Part 1 (image classification)
 │   │   ├── Flicker8K_Dataset_7zip/          # Compressed Flickr8k dataset files
-│   │   ├── Flickr8k_text/                   # Flickr8k text/metadata files
+│   │   ├── Flickr8k_text/                   # Flickr8k text and metadata files
 │   │   ├── train_image_class.csv            # Training image-label mapping file
 │   │   └── valid_image_class.csv            # Validation image-label mapping file
 │   │
@@ -17,17 +17,20 @@ Project Files                                # Deep Learning Final Project Folde
 │       └── SP500_RiskFactors_Dataset.zip    # Compressed S&P 500 risk factors dataset file
 │
 ├── docs/                                    # Project documentation
-│   ├── requirements/                        # Course requirements and support material
+│   ├── requirements/                        # Course requirements and supporting material
 │   │   ├── best_practices_CNN.pdf           # CNN best practices reference
 │   │   ├── extra_info.pdf                   # Additional project information
-│   │   ├── final_presentation.pdf           # Final presentation file
+│   │   ├── final_presentation.pdf           # Course final presentation file
 │   │   └── guideline.pdf                    # Project guidelines and requirements
 │   │
 │   ├── report_1/                            # Part 1 written report
 │   │   └── deep_learning_report_1.pdf       # Flickr image classification report
 │   │
-│   └── report_2/                            # Part 2 written report
-│       └── deep_learning_report_2.pdf       # Financial sequence prediction report
+│   ├── report_2/                            # Part 2 written report
+│   │   └── deep_learning_report_2.pdf       # Financial sequence prediction report
+│   │
+│   └── presentation/                        # Final project presentation slides
+│       └── deep_learning_presentation.pdf   # Deep Learning final presentation
 │
 └── src/                                     # Main development notebooks
     ├── part_1/                              # Source files for Part 1
